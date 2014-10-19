@@ -180,7 +180,7 @@ function valid_postdata($data, $is_title = false)
                 </div>
             </div>
         </div>
-    
+
         <div class="container">
             <div class="row">
                 <form method="POST" action="index.php" class="form-horizontal" role="form">
@@ -242,10 +242,10 @@ function valid_postdata($data, $is_title = false)
                 $ermsg = '';
                 foreach ($errors as $e)
                 {
-                    $ermsg .= '<p class="warning">' . $e . '</p>';
+                    $ermsg .= '<p>' . $e . '</p>';
                 }
 
-                echo '<div class="row"><div class="col-md-offset-3 col-md-6"><h2>Errors when submitting form</h2>' . $ermsg . '</div></div>';
+                echo '<div class="row"><div class="col-md-offset-4 col-md-6"><h2>Errors when submitting form</h2>' . $ermsg . '</div></div>';
             }
         ?>
 
