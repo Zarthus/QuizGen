@@ -1,5 +1,4 @@
 <?php
-error_reporting(-1); ini_set('display_errors', 1);
 if ($_POST)
 {
     $errors = array();
